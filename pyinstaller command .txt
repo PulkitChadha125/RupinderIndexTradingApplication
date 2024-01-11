@@ -1,0 +1,1 @@
+pyinstaller --onefile --add-data "Instruments.csv;." --add-data "Zerodha_Integration.py;." --add-data "ZerodhaCredentials.csv;." --add-data "TradeSettings.csv;." --add-data "Algofox.py;." --add-data "kite_trade.py;." --add-data "OrderLog.txt;." main.py
